@@ -7,6 +7,7 @@ import( "fmt"
 var (
 	totalTickets = 10 //available tickets
 	mutex sync.Mutex //prevent race condition
+	n
 )
 
 //bookTicket function to book tickets
